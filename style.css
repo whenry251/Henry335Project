@@ -1,0 +1,109 @@
+nav {border-bottom: 0.5px solid #e0e0e0;
+    background-color: white;
+        position: relative;
+        z-index: 3;
+}
+
+nav li a {color: black;}
+
+#logo {width: 100px;
+        margin-top: -8px;
+        margin-right: 50px;}
+
+.open {font-weight: bold;}
+
+#hamburger {float: right;
+            margin-top: -3px;
+            margin-bottom: -5px;}
+
+#greeting {color: white;
+            position: absolute;
+            z-index: 1;
+            top: 250px;
+            left: 100px;}
+
+#greeting h1 {font-size: 400%;
+                text-shadow: 1px 1px 5px silver;}
+
+#greeting h5 {font-style: italic;
+                color: white;
+                opacity: 0.7;}
+
+.container {padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 40px;}
+
+.container h1 {font-weight: bolder;}
+
+.row {align-content: center;}
+
+.col-sm-4 {text-align: center;}
+
+.col-sm-4 img {width: 100%;
+                padding: 50px;
+                padding-bottom: 0px;}
+
+.content {background-color: #124B81;
+            color: white;
+            font-size: 15px;
+            padding: 30px;
+            margin: 50px;
+            margin-bottom: 0px;
+            border-radius: 3px;}
+
+.col-sm-2 {text-align: center;}
+
+.col-sm-2 img {width: 50px;
+                display: inline;
+                padding: 10px;}
+
+img:hover {opacity: 0.9;}
+
+#header {background-color: #124B81;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            text-shadow: 1px 1px 5px black;
+            padding: 100px;
+            margin: 0px;}
+
+#header h1 {font-size: 300%;}
+
+.row {text-align: center;}
+
+.regButton {background-color: silver;
+            color: black;
+            border-radius: 3px;
+            font-weight: bolder;
+            box-shadow: 1px 1px 2px #e0e0e0;}
+
+.regButton:hover {background-color: #e0e0e0;}
+
+.contact {background-color: #e0e0e0;
+            font-size: 15px;
+            padding: 30px;
+            margin: 50px;
+            margin-bottom: 0px;
+            border-radius: 3px;}
+
+.row h1 {font-weight: bolder;}
+
+
+
+
+@media only screen and (max-width: 767px) {
+#greeting {position: absolute;
+            font-size: 50%;
+            top: 100px;
+            left: 30px;}
+    
+#greeting h2 {font-size: 250%;}
+    
+.col-sm-4 img {width: 50%;
+                padding: 30px;
+                padding-bottom: 0px;}
+
+.col-sm-6 img {padding-bottom: 20px;}
+
+#header h1 {font-size: 200%;}
+}
