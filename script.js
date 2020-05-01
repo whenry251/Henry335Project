@@ -1,6 +1,18 @@
 $(document).ready(function (){
     $('#fade').css('display', 'none').fadeIn(1000);
     
+    $(".regButton").mouseover(function(){
+        $(this).css("background-color", "#e0e0e0");
+    });
+    
+    $(".regButton").mouseout(function(){
+        $(this).css("background-color", "silver");
+    });
+    
+    $("#submitBtn").click(function(){
+        alert("A new window/tab will now open to submit your form via email. Click OK to continue.")
+    });
+    
     var myDate = new Date();
     var hour = myDate.getHours();
     var greeting;
@@ -10,13 +22,6 @@ $(document).ready(function (){
     else if (hour >= 16 && hour <= 24){greeting = "GOOD EVENING";}
     
     document.getElementById("visitGreeting").innerHTML = greeting + "!";
-    
-    
-    /*I literally tried for hours to write a script-based slideshow for the design page but it was not working at ALL, so I decided to learn how to make a bootstrap one off of W3 instead.
-    var imageList = ["slideshow/ashlyn.png", "slideshow/meredith.png", "slideshow/frostystickers.JPG", "slideshow/bearcatfoodpantry.png", "slideshow/asbsticker.png", "slideshow/asbinfosess.png", "slideshow/asbcorona1.jpg", "slideshow/asbcorona.gif", "slideshow/asbexecannounce.png"];
-    var x = 0;*/
-    
-    
     
     });
 
