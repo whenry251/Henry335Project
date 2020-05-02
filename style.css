@@ -8,6 +8,8 @@ nav li a {color: black;}
 
 #exp {color: black;}
 
+#exp:hover {text-decoration: none;}
+
 #logo {width: 100px;
         margin-top: -8px;
         margin-right: 50px;}
@@ -121,6 +123,8 @@ summary {font-size: 20px;
 .glyphicon {margin-top: 300px;}
 
 .write {margin-bottom: 20px;}
+
+.write p {padding: 15px;}
 
 .resumeHead {font-weight: bold;
             text-align: center;
